@@ -4,21 +4,17 @@ body {
   text-align: center;
 }
 
-/* div {
-  display: inline-block;
-} */
-
 .login_form {
   border: solid grey 1px;
   width: 80%;
-  max-width: 1100px;
+  max-width: 900px;
   margin: 0px auto;
   text-align: center;
 }
 
-.content_inside {
+.content__inside {
   display: flex;
-  border: solid red 1px;
+  border: solid yellow 1px;
 }
 
 .content_left {
