@@ -93,6 +93,10 @@ body {
   padding-right: 30px;
 }
 
+h2 {
+  color: #5d5d5d;
+}
+
 .credentials_form {
   text-align: center;
   width: 90%;
@@ -101,7 +105,7 @@ body {
 
 .credentials_form_name {
   border-bottom: lightgray 1px solid;
-  margin-bottom: 20px;
+  margin: 35px 0px 20px;
 }
 
 .login_name {
@@ -121,6 +125,12 @@ body {
   align-items: center;
   margin: auto;
   display: flex;
+}
+
+.checkbox {
+  margin-right: 20px;
+  font-weight: 600;
+  color: #5d5d5d;
 }
 
 .button_login {
