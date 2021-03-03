@@ -1,0 +1,54 @@
+body {
+  width: 100%;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+.login_form {
+  display: flex;
+  border: solid grey 1px;
+  width: 80%;
+  max-width: 1100px;
+  margin: 0px auto;
+  text-align: left;
+}
+
+.content_inside {
+  border: solid red 1px;
+  display: flex;
+}
+
+.content_left {
+  border: solid red 1px;
+  width: 30%;
+}
+
+.button_1 {
+  height: 50px;
+  width: 180px;
+  background-color: #517cc0;
+  border: none;
+  color: white;
+}
+
+.button_2 {
+  height: 50px;
+  width: 180px;
+  background-color: #df4a32;
+  border: none;
+  color: white;
+}
+
+.button_3 {
+  height: 50px;
+  width: 180px;
+  background-color: #65cdf2;
+  border: none;
+  color: white;
+}
+
+.content_right {
+  display: flex;
+  border: solid blue 1px;
+  width: 30%;
+}
