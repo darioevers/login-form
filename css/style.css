@@ -4,18 +4,21 @@ body {
   text-align: center;
 }
 
+/* div {
+  display: inline-block;
+} */
+
 .login_form {
-  display: flex;
   border: solid grey 1px;
   width: 80%;
   max-width: 1100px;
   margin: 0px auto;
-  text-align: left;
+  text-align: center;
 }
 
 .content_inside {
-  border: solid red 1px;
   display: flex;
+  border: solid red 1px;
 }
 
 .content_left {
@@ -51,4 +54,11 @@ body {
   display: flex;
   border: solid blue 1px;
   width: 30%;
+}
+
+.content__bottom {
+  border: solid green 1px;
+  width: 80%;
+  max-width: 1100px;
+  margin: auto;
 }
