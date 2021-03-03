@@ -73,10 +73,32 @@ body {
   width: 50%;
 }
 
+.credentials_form {
+  text-align: center;
+}
+
+.credentials_form_name {
+  border-bottom: lightgray 1px solid;
+}
+
+.login_name {
+  border: none;
+}
+
+.credentials_form_pw {
+  border-bottom: lightgray 1px solid;
+}
+
+.login_password {
+  border: none;
+}
+
 .content__bottom {
-  border: solid green 1px;
+  display: flex;
+  align-content: center;
+  align-items: center;
   background-color: #f2f9ff;
-  margin: auto;
+  border: lightgray solid 1px;
 }
 
 a {
