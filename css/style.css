@@ -13,9 +13,6 @@ body {
   width: 70%;
   max-width: 700px;
   margin: 0px auto;
-  text-align: center;
-  align-content: center;
-  align-items: center;
 }
 
 /* INSIDE CONTAINER */
@@ -117,7 +114,6 @@ h2 {
 .credentials_form_name {
   border-bottom: lightgray 1px solid;
   margin: 35px 0px 20px;
-  font-size: 15px;
 }
 
 .login_name {
@@ -160,22 +156,33 @@ h2 {
 /* BOTTOM CONTENT / FOOTER */
 
 .content__bottom {
+  height: 35px;
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
-  margin: 0px auto;
+  justify-content: center;
   background-color: #f2f9ff;
   border-top: solid rgba(199, 199, 199, 0.8) 1px;
+}
+
+.content__bottom .bot_line {
+  background-color: rgba(49, 49, 49, 0.3);
+  height: 15px;
+  width: 2px;
+  z-index: 0;
+  margin: 0px 6px;
+  transform: translate(-33px);
+}
+
+.registerL {
+  transform: translate(-33px);
+}
+
+.forgotL {
+  transform: translate(-33px);
 }
 
 a {
   text-decoration: none;
   color: #1d79dc;
   font-weight: 600;
-}
-
-.bottom_line {
-  color: grey;
-  font-weight: 500;
 }
