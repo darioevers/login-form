@@ -106,6 +106,7 @@ h2 {
 .credentials_form_name {
   border-bottom: lightgray 1px solid;
   margin: 35px 0px 20px;
+  font-size: 15px;
 }
 
 .login_name {
