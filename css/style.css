@@ -1,5 +1,9 @@
 @import url(../fonts/css/all.css);
 
+html {
+  background-image: url(../images/bg_001.jpg);
+}
+
 body {
   width: 100%;
   font-family: Montserrat;
@@ -14,6 +18,7 @@ body {
   width: 70%;
   max-width: 700px;
   margin: 0px auto;
+  background-color: white;
 }
 
 /* INSIDE CONTAINER */

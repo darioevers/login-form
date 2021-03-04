@@ -1,5 +1,5 @@
 # login-form
 
-<img src="images/form-screenshot.png"/>
+<img src="images/screenshot.png"/>
 
 A basic login page based on HTML and CSS.
